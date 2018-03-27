@@ -29,5 +29,5 @@ php
     $shop_service = new ShopService($token, $config);
     
     //调用服务方法，获取资源
-    $shop = shop_service->get_shop('12345');
+    $shop = $shop_service->get_shop('12345');
 ```
